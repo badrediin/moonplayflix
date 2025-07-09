@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoonPlayFlix - الموقع الرسمي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #b77eff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #b77eff;
+    }
+    .button {
+      display: inline-block;
+      background: #b77eff;
+      color: black;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background: #fff;
+      color: #2d0c4a;
+    }
+    .plans {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .plan {
+      background: #1a1a1a;
+      padding: 20px;
+      border: 2px solid #b77eff;
+      border-radius: 12px;
+    }
+    .price {
+      font-size: 1.5em;
+      color: #b77eff;
+    }
+    @media (min-width: 768px) {
+      .plans {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#plans">الباقات</a>
+    <a href="#about">من نحن</a>
+    <a href="#contact">اتصل بنا</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h1>مرحبًا بك في MoonPlayFlix</h1>
+  <p>أقوى اشتراكات IPTV بجودة عالية وبث مستقر. اختر باقتك وابدأ المشاهدة الآن!</p>
+  <a href="#plans" class="button">استعرض الباقات</a>
+</section>
+
+<section id="plans">
+  <h2>باقات الاشتراك</h2>
+  <div class="plans">
+    <div class="plan">
+      <h3>الباقة الشهرية</h3>
+      <p class="price">4.99 دولار</p>
+      <a class="button" href="https://wa.me/212691050745?text=أريد%20الاشتراك%20في%20الباقة%20الشهرية">اشترك عبر واتساب</a>
+    </div>
+    <div class="plan">
+      <h3>باقة 3 أشهر</h3>
+      <p class="price">12.99 دولار</p>
+      <a class="button" href="https://wa.me/212691050745?text=أريد%20الاشتراك%20في%20باقة%203%20أشهر">اشترك عبر واتساب</a>
+    </div>
+    <div class="plan">
+      <h3>الباقة السنوية</h3>
+      <p class="price">29.99 دولار</p>
+      <a class="button" href="https://wa.me/212691050745?text=أريد%20الاشتراك%20في%20الباقة%20السنوية">اشترك عبر واتساب</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>من نحن</h2>
+  <p>
+    MoonPlayFlix هي منصة رقمية متخصصة في توفير اشتراكات IPTV عالية الجودة، تُمكنك من مشاهدة المباريات، الأفلام، والمسلسلات في أي وقت ومن أي مكان.
+    نحن نضمن لك تجربة ترفيه سلسة، بدون تقطّع، وبأفضل جودة ممكنة.
+  </p>
+  <p>
+    رؤيتنا هي تقديم أفضل محتوى ترفيهي في متناول الجميع، بأسعار مناسبة وخدمة عملاء موثوقة وسريعة عبر WhatsApp.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>اتصل بنا</h2>
+  <p>لأي استفسار أو دعم، تواصل معنا مباشرة عبر الواتساب:</p>
+  <a class="button" href="https://wa.me/212691050745">+212 691 050 745</a>
+</section>
+
+</body>
+</html>
